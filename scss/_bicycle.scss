@@ -1,0 +1,22 @@
+.bicycle {
+    text-align: center;
+
+    .items {
+        display: flex;
+        margin-bottom: 30px;
+    }
+
+    .item {
+        width: calc(100%/3);
+        margin-right: 15px;
+
+        img {
+            width: 100%;
+        }
+
+        &:last-child {
+            margin-right: 0;
+
+        }
+    }
+}

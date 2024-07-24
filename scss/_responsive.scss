@@ -1,0 +1,17 @@
+@media (max-width :520px) {
+    .contents {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .items {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+
+    .item {
+        width: 100%;
+    }
+}
